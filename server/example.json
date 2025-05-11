@@ -1,0 +1,638 @@
+{
+  "aspectRatio": "16:9",
+  "resolution": "1080p",
+  "musicUrl": "https://firebasestorage.googleapis.com/v0/b/drawing-87071.appspot.com/o/upbeat-222611.mp3?alt=media&token=862ae384-709e-41ad-8324-31db62cae06a",
+  "musicVolume": 0.5,
+  "items": [
+    {
+      "id": "1",
+      "type": "frame",
+      "text": [
+        {
+          "id": "1",
+          "type": "text",
+          "animation": "typewriter",
+          "animationConfig": {
+            "duration": 40
+          },
+          "text": "Hi My name is Fitzz",
+          "fontSize": 50,
+          "fontFamily": "Montserrat",
+          "fontWeight": 700,
+          "fontColor": "0x3498db",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "textAlign": "center",
+          "layout": "center",
+          "y": 50,
+          "dropShadow": {
+            "enabled": true,
+            "color": "0x000000",
+            "alpha": 0.8,
+            "blur": 6,
+            "angle": 0.7853981633974483,
+            "distance": 8
+          },
+          "stroke": {
+            "enabled": true,
+            "color": "0x2980b9",
+            "width": 3,
+            "join": "round"
+          }
+        },
+        {
+          "id": "1-heading",
+          "type": "text",
+          "animation": "fade",
+          "animationConfig": {
+            "duration": 30
+          },
+          "text": "Welcome to VideoAPI",
+          "fontSize": 70,
+          "fontFamily": "Montserrat",
+          "fontWeight": 900,
+          "fontColor": "0xffffff",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "textAlign": "center",
+          "layout": "center",
+          "y": 150,
+          "dropShadow": {
+            "enabled": true,
+            "color": "0x000000",
+            "alpha": 0.9,
+            "blur": 8,
+            "angle": 0.7853981633974483,
+            "distance": 6
+          }
+        },
+        {
+          "id": "1-subheading",
+          "type": "text",
+          "animation": "slide",
+          "animationConfig": {
+            "duration": 25,
+            "animationDirection": "bottom"
+          },
+          "text": "Create amazing videos programmatically",
+          "fontSize": 30,
+          "fontFamily": "Roboto",
+          "fontWeight": 400,
+          "fontColor": "0xecf0f1",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "textAlign": "center",
+          "layout": "center",
+          "y": 230
+        }
+      ],
+      "media": {
+        "id": "1",
+        "type": "image",
+        "transition": "wipe",
+        "transitionConfig": {
+          "type": "wipe",
+          "direction": "from-left",
+          "duration": 40
+        },
+        "url": "https://konvajs.org/assets/yoda.jpg"
+      },
+      "duration": 120
+    },
+    {
+      "id": "2",
+      "type": "frame",
+      "text": [
+        {
+          "id": "2",
+          "type": "text",
+          "animation": "fade",
+          "animationConfig": {
+            "duration": 25
+          },
+          "text": "Wipe Transition\nfrom-top",
+          "fontSize": 50,
+          "fontFamily": "Roboto",
+          "fontWeight": 700,
+          "fontColor": "0xe74c3c",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "textAlign": "center",
+          "layout": "right",
+          "y": 100,
+          "dropShadow": {
+            "enabled": false
+          },
+          "stroke": {
+            "enabled": true,
+            "color": "0xffffff",
+            "width": 4,
+            "join": "bevel"
+          }
+        },
+        {
+          "id": "2-hashtags",
+          "type": "text",
+          "animation": "pop",
+          "animationConfig": {
+            "duration": 20
+          },
+          "text": "#videoapi #animations #transitions",
+          "fontSize": 24,
+          "fontFamily": "Roboto",
+          "fontWeight": 400,
+          "fontColor": "0xecf0f1",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "textAlign": "right",
+          "layout": "right",
+          "y": 400
+        }
+      ],
+      "media": {
+        "id": "2",
+        "type": "image",
+        "transition": "wipe",
+        "transitionConfig": {
+          "type": "wipe",
+          "direction": "from-top",
+          "duration": 25
+        },
+        "url": "https://konvajs.org/assets/darth-vader.jpg"
+      },
+      "duration": 90
+    },
+    {
+      "id": "3",
+      "type": "frame",
+      "text": [
+        {
+          "id": "3",
+          "type": "text",
+          "animation": "slide",
+          "animationConfig": {
+            "duration": 20,
+            "animationDirection": "left"
+          },
+          "text": "Wipe Transition\nfrom-right",
+          "fontSize": 50,
+          "fontFamily": "Pacifico",
+          "fontWeight": 700,
+          "fontColor": "0xf1c40f",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "textAlign": "center",
+          "layout": "left",
+          "y": 150,
+          "fillGradient": {
+            "enabled": true,
+            "colors": ["0xf1c40f", "0xe67e22"],
+            "angle": 45
+          }
+        },
+        {
+          "id": "3-heading",
+          "type": "text",
+          "animation": "bounce",
+          "animationConfig": {
+            "duration": 35,
+            "animationDirection": "top"
+          },
+          "text": "AMAZING EFFECTS",
+          "fontSize": 60,
+          "fontFamily": "Oswald",
+          "fontWeight": 800,
+          "fontColor": "0xffffff",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "textAlign": "center",
+          "layout": "center",
+          "y": 70,
+          "stroke": {
+            "enabled": true,
+            "color": "0x34495e",
+            "width": 5,
+            "join": "round"
+          }
+        }
+      ],
+      "media": {
+        "id": "3",
+        "type": "image",
+        "transition": "wipe",
+        "transitionConfig": {
+          "type": "wipe",
+          "direction": "from-right",
+          "duration": 35
+        },
+        "url": "https://konvajs.org/assets/lion.png"
+      },
+      "duration": 110
+    },
+    {
+      "id": "4",
+      "type": "frame",
+      "text": [
+        {
+          "id": "4",
+          "type": "text",
+          "animation": "pop",
+          "animationConfig": {
+            "duration": 15
+          },
+          "text": "Slide Transition\nfrom-bottom",
+          "fontSize": 50,
+          "fontFamily": "Oswald",
+          "fontWeight": 700,
+          "fontColor": "0x9b59b6",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "textAlign": "center",
+          "layout": "center",
+          "y": 200,
+          "dropShadow": {
+            "enabled": true,
+            "color": "0x34495e",
+            "alpha": 0.9,
+            "blur": 8,
+            "angle": 1.0471975511965976,
+            "distance": 10
+          }
+        },
+        {
+          "id": "4-subheading",
+          "type": "text",
+          "animation": "fade",
+          "animationConfig": {
+            "duration": 25
+          },
+          "text": "Easy to customize and implement",
+          "fontSize": 30,
+          "fontFamily": "Roboto",
+          "fontWeight": 400,
+          "fontColor": "0xecf0f1",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "textAlign": "center",
+          "layout": "center",
+          "y": 280
+        },
+        {
+          "id": "4-hashtags",
+          "type": "text",
+          "animation": "flash",
+          "animationConfig": {
+            "duration": 30
+          },
+          "text": "#slideTransition #effects #videoapi",
+          "fontSize": 24,
+          "fontFamily": "Roboto",
+          "fontWeight": 400,
+          "fontColor": "0xecf0f1",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "textAlign": "center",
+          "layout": "center",
+          "y": 440
+        }
+      ],
+      "media": {
+        "id": "4",
+        "type": "image",
+        "transition": "slide",
+        "transitionConfig": {
+          "type": "slide",
+          "direction": "from-bottom",
+          "duration": 45
+        },
+        "url": "https://konvajs.org/assets/yoda.jpg"
+      },
+      "duration": 100
+    },
+    {
+      "id": "5",
+      "type": "frame",
+      "text": {
+        "id": "5",
+        "type": "text",
+        "animation": "flash",
+        "animationConfig": {
+          "duration": 35
+        },
+        "text": "Fade Transition",
+        "fontSize": 50,
+        "fontFamily": "Dancing Script",
+        "fontWeight": 700,
+        "fontColor": "0x2ecc71",
+        "fontStyle": "normal",
+        "fontVariant": "normal",
+        "textAlign": "center",
+        "layout": "center",
+        "y": 250,
+        "stroke": {
+          "enabled": true,
+          "color": "0x27ae60",
+          "width": 2,
+          "join": "miter"
+        },
+        "dropShadow": {
+          "enabled": false
+        }
+      },
+      "media": {
+        "id": "5",
+        "type": "image",
+        "transition": "fade",
+        "transitionConfig": {
+          "type": "fade",
+          "duration": 60
+        },
+        "url": "https://konvajs.org/assets/darth-vader.jpg"
+      }
+    },
+    {
+      "id": "6",
+      "type": "frame",
+      "text": {
+        "id": "6",
+        "type": "text",
+        "animation": "pulse",
+        "animationConfig": {
+          "duration": 45
+        },
+        "text": "Star/Dissolve Transition",
+        "fontSize": 50,
+        "fontFamily": "Lato",
+        "fontWeight": 700,
+        "fontColor": "0x1abc9c",
+        "fontStyle": "normal",
+        "fontVariant": "normal",
+        "textAlign": "center",
+        "layout": "center",
+        "y": 300,
+        "fillGradient": {
+          "enabled": true,
+          "colors": ["0x1abc9c", "0x3498db"],
+          "angle": 90
+        },
+        "dropShadow": {
+          "enabled": true,
+          "color": "0x000000",
+          "alpha": 0.5,
+          "blur": 4,
+          "angle": 0.5235987755982988,
+          "distance": 6
+        }
+      },
+      "media": {
+        "id": "6",
+        "type": "image",
+        "transition": "wipe",
+        "transitionConfig": {
+          "type": "wipe",
+          "direction": "from-bottom",
+          "duration": 30
+        },
+        "url": "https://konvajs.org/assets/yoda.jpg"
+      }
+    },
+    {
+      "id": "7",
+      "type": "frame",
+      "text": {
+        "id": "7",
+        "type": "text",
+        "animation": "bounce",
+        "animationConfig": {
+          "duration": 30,
+          "animationDirection": "right"
+        },
+        "text": "Wipe Transition\nfrom-bottom-right",
+        "fontSize": 50,
+        "fontFamily": "Playfair Display",
+        "fontWeight": 700,
+        "fontColor": "0xecf0f1",
+        "fontStyle": "normal",
+        "fontVariant": "normal",
+        "textAlign": "center",
+        "layout": "center",
+        "y": 350,
+        "stroke": {
+          "enabled": true,
+          "color": "0x34495e",
+          "width": 5,
+          "join": "round"
+        },
+        "dropShadow": {
+          "enabled": true,
+          "color": "0x2c3e50",
+          "alpha": 1,
+          "blur": 10,
+          "angle": 1.5707963267948966,
+          "distance": 5
+        }
+      },
+      "media": {
+        "id": "7",
+        "type": "image",
+        "transition": "wipe",
+        "transitionConfig": {
+          "type": "wipe",
+          "direction": "from-right",
+          "duration": 35
+        },
+        "url": "https://konvajs.org/assets/darth-vader.jpg"
+      }
+    },
+    {
+      "id": "8",
+      "type": "frame",
+      "text": {
+        "id": "8",
+        "type": "text",
+        "animation": "fade",
+        "animationConfig": {
+          "duration": 30
+        },
+        "text": "Cute Kitten Demo",
+        "fontSize": 50,
+        "fontFamily": "Montserrat",
+        "fontWeight": 700,
+        "fontColor": "0xffffff",
+        "fontStyle": "normal",
+        "fontVariant": "normal",
+        "textAlign": "center",
+        "layout": "center",
+        "y": 150,
+        "dropShadow": {
+          "enabled": true,
+          "color": "0x000000",
+          "alpha": 0.8,
+          "blur": 6,
+          "angle": 0.7853981633974483,
+          "distance": 8
+        }
+      },
+      "heading": {
+        "id": "8-heading",
+        "type": "text",
+        "animation": "typewriter",
+        "animationConfig": {
+          "duration": 40
+        },
+        "text": "PLACEKITTEN API",
+        "fontSize": 70,
+        "fontFamily": "Oswald",
+        "fontWeight": 900,
+        "fontColor": "0xff6b6b",
+        "fontStyle": "normal",
+        "fontVariant": "normal",
+        "textAlign": "center",
+        "layout": "center",
+        "y": 50,
+        "stroke": {
+          "enabled": true,
+          "color": "0xffffff",
+          "width": 4,
+          "join": "round"
+        }
+      },
+      "subheading": {
+        "id": "8-subheading",
+        "type": "text",
+        "animation": "slide",
+        "animationConfig": {
+          "duration": 25,
+          "animationDirection": "bottom"
+        },
+        "text": "Beautiful placeholder images for your projects",
+        "fontSize": 30,
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+        "fontColor": "0xffffff",
+        "fontStyle": "normal",
+        "fontVariant": "normal",
+        "textAlign": "center",
+        "layout": "center",
+        "y": 230
+      },
+      "hashtags": {
+        "id": "8-hashtags",
+        "type": "text",
+        "animation": "pop",
+        "animationConfig": {
+          "duration": 20
+        },
+        "text": "#placekitten #cute #webdesign",
+        "fontSize": 24,
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+        "fontColor": "0xffffff",
+        "fontStyle": "normal",
+        "fontVariant": "normal",
+        "textAlign": "center",
+        "layout": "center",
+        "y": 440
+      },
+      "media": {
+        "id": "8",
+        "type": "image",
+        "transition": "fade",
+        "transitionConfig": {
+          "type": "fade",
+          "duration": 30
+        },
+        "url": "https://konvajs.org/assets/lion.png"
+      }
+    },
+    {
+      "id": "9",
+      "type": "frame",
+      "text": {
+        "id": "9",
+        "type": "text",
+        "animation": "slide",
+        "animationConfig": {
+          "duration": 25,
+          "animationDirection": "left"
+        },
+        "text": "More Kittens!",
+        "fontSize": 50,
+        "fontFamily": "Pacifico",
+        "fontWeight": 700,
+        "fontColor": "0xf8e9a1",
+        "fontStyle": "normal",
+        "fontVariant": "normal",
+        "textAlign": "center",
+        "layout": "right",
+        "y": 200,
+        "dropShadow": {
+          "enabled": true,
+          "color": "0x000000",
+          "alpha": 0.7,
+          "blur": 5,
+          "angle": 0.5235987755982988,
+          "distance": 6
+        }
+      },
+      "heading": {
+        "id": "9-heading",
+        "type": "text",
+        "animation": "bounce",
+        "animationConfig": {
+          "duration": 30,
+          "animationDirection": "top"
+        },
+        "text": "FLUFFY FRIEND",
+        "fontSize": 70,
+        "fontFamily": "Montserrat",
+        "fontWeight": 900,
+        "fontColor": "0xf3d250",
+        "fontStyle": "normal",
+        "fontVariant": "normal",
+        "textAlign": "center",
+        "layout": "left",
+        "y": 100,
+        "stroke": {
+          "enabled": true,
+          "color": "0x5da2d5",
+          "width": 5,
+          "join": "round"
+        }
+      },
+      "hashtags": {
+        "id": "9-hashtags",
+        "type": "text",
+        "animation": "flash",
+        "animationConfig": {
+          "duration": 35
+        },
+        "text": "#meow #kittens #aww",
+        "fontSize": 24,
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+        "fontColor": "0xffffff",
+        "fontStyle": "normal",
+        "fontVariant": "normal",
+        "textAlign": "center",
+        "layout": "center",
+        "y": 440
+      },
+      "media": {
+        "id": "9",
+        "type": "video",
+        "transition": "slide",
+        "volume": 0.5,
+        "muted": true,
+        "transitionConfig": {
+          "type": "slide",
+          "direction": "from-right",
+          "startFrame": 0,
+          "endFrame": 100,
+          "duration": 40
+        },
+        "url": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/1080/Big_Buck_Bunny_1080_10s_5MB.mp4"
+      }
+    }
+  ]
+}
