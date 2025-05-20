@@ -1,7 +1,5 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { extend } from "@pixi/react";
-import { Container, Graphics, Sprite, Text, Mesh, Texture } from "pixi.js";
 import { AppState } from "@/types/schema";
 import BackgroundImageComponent from "../../components/background-image-component";
 import FreeImageComponent from "../../components/free-image-component";
@@ -25,18 +23,6 @@ import { LoadFonts } from "@/contexts/load-fonts";
 export const FRAME_DURATION_IN_FRAMES = 100;
 export const DEFAULT_TRANSITION_DURATION_IN_FRAMES = 30;
 
-extend({
-  Container,
-  Graphics,
-  Sprite,
-  Text,
-  Mesh,
-});
-
-type TexturesMap = {
-  [url: string]: Texture;
-};
-
 const CanvasComponent: React.FC<AppState> = ({
   items,
   musicUrl,
@@ -45,7 +31,6 @@ const CanvasComponent: React.FC<AppState> = ({
 }) => {
   const { width, height } = useVideoConfig();
   const [handle] = useState(() => delayRender());
-  const [loadedTextures, setLoadedTextures] = useState<TexturesMap>({});
 
   // Collect all unique URLs from items that we'll need to prefetch
   useEffect(() => {
@@ -53,7 +38,6 @@ const CanvasComponent: React.FC<AppState> = ({
 
     const prefetchAllMedia = async () => {
       const waitUntilDones: Promise<string>[] = [];
-      const newTextures: TexturesMap = {};
 
       // Prefetch background media
       items.forEach((item) => {
@@ -81,7 +65,6 @@ const CanvasComponent: React.FC<AppState> = ({
       // Wait for all prefetch and texture loading to complete
       await Promise.all([Promise.all(waitUntilDones)]);
 
-      setLoadedTextures(newTextures);
       continueRender(handle);
       console.log("Prefetched all media and loaded all textures");
     };
@@ -93,9 +76,6 @@ const CanvasComponent: React.FC<AppState> = ({
     return () => {
       freePromises.forEach((free) => free());
       // Clean up textures
-      Object.values(loadedTextures).forEach((texture) => {
-        texture.destroy(true);
-      });
     };
   }, [handle, items]);
 
